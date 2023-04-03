@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'VictorRegular';
+    src: local('VictorRegular'),
+        url('../../assets/fonts/VictorMono-Regular.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'VictorItalic';
+    src: local('VictorItalic'),
+        url('../../assets/fonts/VictorMono-Italic.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'VictorBold';
+    src: local('VictorBold'),
+        url('../../assets/fonts/VictorMono-Bold.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'VictorBoldItalic';
+    src: local('VictorBoldItalic'),
+        url('../../assets/fonts/VictorMono-BoldItalic.ttf') format('truetype')
+}
