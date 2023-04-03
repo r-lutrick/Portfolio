@@ -20,7 +20,7 @@ const Main = () => {
     // })
     let appSection = `container container-fluid d-flex align-items-center justify-content-center`
     return (
-        <>
+        <div className='container'>
             <section id='intro' className={`${appSection} full-view`} >
                 <Intro />
             </section>
@@ -37,7 +37,7 @@ const Main = () => {
                 <Connect />
             </section>
 
-        </>
+        </div>
     )
 }
 
