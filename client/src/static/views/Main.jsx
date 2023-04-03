@@ -18,22 +18,22 @@ const Main = () => {
     //     changeBackground();
     //     window.addEventListener("scroll", changeBackground)
     // })
-    let appSection = `container container-fluid d-flex align-items-center justify-content-center`
+    let appSection = `container container-fluid d-flex justify-content-center`
     return (
         <div className='container'>
-            <section id='intro' className={`${appSection} full-view`} >
+            <section id='intro' className={`${appSection} align-items-center full-view`} >
                 <Intro />
             </section>
-            <section id='about' className={`${appSection} half-view`}>
+            <section id='about' className={`${appSection} align-items-start half-view`}>
                 <About />
             </section>
-            <section id='skills' className={`${appSection} half-view`}>
+            <section id='skills' className={`${appSection} align-items-start half-view`}>
                 <Skills />
             </section>
-            <section id='project' className={`${appSection} half-view`}>
+            <section id='project' className={`${appSection} align-items-start half-view`}>
                 <Projects />
             </section>
-            <section id='connect' className={`${appSection} half-view`}>
+            <section id='connect' className={`${appSection} align-items-start half-view`}>
                 <Connect />
             </section>
 

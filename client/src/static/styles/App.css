@@ -2,7 +2,7 @@
     height: 100vh;
 }
 .half-view {
-    height: 50vh;
+    height: auto;
 }
 .name {
     font-size: 2em;
