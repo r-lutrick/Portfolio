@@ -6,15 +6,32 @@ import { SiPython, SiReact, SiMongodb, SiExpress } from 'react-icons/si';
 import { FaNodeJs, FaJava } from 'react-icons/fa'
 import pythonRecipies from '../assets/images/python_recipies.gif'
 
-const Skills = () => {
+const Stacks = () => {
   let listItem = "list-group-item text-end bg-transparent text-white"
-  let pythonCarousel = {title: 'Cook Book', text: 'Full CRUD application for keeping everyone\'s favorite recipe!'}
+
+  const pythonCarousel = [
+    {
+      image: pythonRecipies,
+      title: 'Cook Book',
+      text: 'Full CRUD application for keeping everyone\'s favorite recipes!'
+    }
+  ]
+  const mernCarousel = [
+    {
+      image: '',
+      title:'',
+      text:''
+    }
+  ]
+  const javaCarousel = [
+    {
+      image: '',
+      title:'',
+      text:''
+    }
+  ]
 
   const [key, setKey] = useState('python');
-
-  const handleTabs = (k) => {
-    return key ? 'text-black' : 'text-white'
-  }
 
   return (
     <div className='p-3 bg-dark bg-opacity-50 rounded blur fade-in-2 w-100 text-center'>
@@ -47,19 +64,28 @@ const Skills = () => {
               <h4 className='text-start'>Database</h4>
               <ul className='list-group'>
                 <li className={listItem}>MySQL</li>
+                <li className={listItem}>One-to-Many</li>
+                <li className={listItem}>Many-to-Many</li>
               </ul>
               <h4 className='text-start'>Frameworks</h4>
               <ul className='list-group'>
                 <li className={listItem}>Flask</li>
+                <li className={listItem}>MVC</li>
               </ul>
               <h4 className='text-start'>Libraries</h4>
               <ul className='list-group'>
                 <li className={listItem}>Bootstrap</li>
+                <li className={listItem}>Bcrypt</li>
+              </ul>
+              <h4 className='text-start'>Tools and Misc</h4>
+              <ul className='list-group'>
+                <li className={listItem}>Git</li>
+                <li className={listItem}>VSCode</li>
               </ul>
             </div>
             <div className="container col-9">
               <h4>Projects</h4>
-              <CarouselFunction image={pythonRecipies} captionTitle={pythonCarousel.title} captionText={pythonCarousel.text} />
+              <CarouselFunction carouselList={pythonCarousel} />
             </div>
           </div>
         </Tab>
@@ -90,19 +116,61 @@ const Skills = () => {
                 <li className={listItem}>Bootstrap</li>
                 <li className={listItem}>Material UI</li>
               </ul>
+              <h4 className='text-start'>Tools and Misc</h4>
+              <ul className='list-group'>
+                <li className={listItem}>Git</li>
+                <li className={listItem}>VSCode</li>
+              </ul>
             </div>
             <div className="container col-9">
               <h4>Projects</h4>
-              <CarouselFunction />
+              <CarouselFunction carouselList={mernCarousel} />
             </div>
           </div>
         </Tab>
         <Tab eventKey="java" title="Java" tabClassName={key === 'java' ? 'text-black' : 'text-white'}>
           <div className="d-flex align-items-center justify-content-between">
             <h2><b>Java</b></h2>
-            <h2><FaJava /> </h2>
+            <h2><FaJava /></h2>
           </div>
           <hr />
+          <div className="d-flex col">
+            <div className='container col-3'>
+              <h4 className='text-start'>Front-End</h4>
+              <ul className='list-group'>
+                <li className={listItem}>HTML</li>
+                <li className={listItem}>CSS</li>
+                <li className={listItem}>JavaScript</li>
+              </ul>
+              <h4 className='text-start'>Back-End</h4>
+              <ul className='list-group'>
+                <li className={listItem}>Java</li>
+              </ul>
+              <h4 className='text-start'>Database</h4>
+              <ul className='list-group'>
+                <li className={listItem}>MySQL</li>
+              </ul>
+              <h4 className='text-start'>Framework</h4>
+              <ul className='list-group'>
+                <li className={listItem}>Spring</li>
+                <li className={listItem}>MVC</li>
+              </ul>
+              <h4 className='text-start'>Libraries</h4>
+              <ul className='list-group'>
+                <li className={listItem}>Tailwind</li>
+              </ul>
+              <h4 className='text-start'>Tools and Misc</h4>
+              <ul className='list-group'>
+                <li className={listItem}>Git</li>
+                <li className={listItem}>Eclipse STS (Spring Tool Suite)</li>
+                <li className={listItem}>MySQL Workbench</li>
+              </ul>
+            </div>
+            <div className="container col-9">
+              <h4>Projects</h4>
+              <CarouselFunction carouselList={javaCarousel} />
+            </div>
+          </div>
         </Tab>
       </Tabs>
 
@@ -110,4 +178,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Stacks

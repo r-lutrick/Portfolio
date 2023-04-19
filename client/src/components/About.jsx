@@ -3,16 +3,8 @@ import portrait from '../assets/images/professionalPicture.PNG'
 
 const About = () => {
     return (
-        /* 
-        <div className='p-3 bg-dark bg-opacity-50 rounded blur fade-in-2'>
-            <div className="textBox">
-                <h3 className='drop-in-top'>Hello,</h3>
-                <h1 className='fade-in-3 name'>my name is <b>Robert</b>.</h1>
-                <h5 className='drop-in-bottom'>I'm a full-stack developer who loves bringing ideas to life through responsive and dynamic web applications. With my expertise in technologies like JavaScript, React, Node.js, and MongoDB, I'm always excited to collaborate and create custom solutions that meet unique needs and goals.</h5>
-            </div>
-        </div> 
-        */
         <div className="p-3 bg-dark bg-opacity-50 rounded blur fade-in-2">
+            <h1 className='text-end'>A little bit about me</h1>
             <div className="portrait d-flex align-items-center col">
                 <div className='col-7'>
                     <p style={{ textIndent: "25px" }}>
