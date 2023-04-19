@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.45a03f58.css",
-    "main.js": "/Portfolio/static/js/main.8e28fe4d.js",
-    "static/media/bwBackdrop.jpg": "/Portfolio/static/media/bwBackdrop.457b7976bd46508dfc14.jpg",
+    "main.css": "/Portfolio/static/css/main.c2252c37.css",
+    "main.js": "/Portfolio/static/js/main.2a45f409.js",
     "static/media/professionalPicture.PNG": "/Portfolio/static/media/professionalPicture.9894bd98ca56dd77fabe.PNG",
+    "static/media/lightWallpaper.jpg": "/Portfolio/static/media/lightWallpaper.eb2b72b7a8409ddc45ff.jpg",
+    "static/media/python_recipies.gif": "/Portfolio/static/media/python_recipies.11f7df49e8ebffaebc81.gif",
     "static/media/VictorMono-BoldItalic.ttf": "/Portfolio/static/media/VictorMono-BoldItalic.f9acc4737d42ad8a1d48.ttf",
     "static/media/VictorMono-Italic.ttf": "/Portfolio/static/media/VictorMono-Italic.bd5aba59572271058e4e.ttf",
     "static/media/VictorMono-Bold.ttf": "/Portfolio/static/media/VictorMono-Bold.11783b6831b548e68467.ttf",
     "static/media/VictorMono-Regular.ttf": "/Portfolio/static/media/VictorMono-Regular.7fd9f91170738a06d495.ttf",
     "static/media/logo.png": "/Portfolio/static/media/logo.a99ef43cf98fb493c57e.png",
     "index.html": "/Portfolio/index.html",
-    "main.45a03f58.css.map": "/Portfolio/static/css/main.45a03f58.css.map",
-    "main.8e28fe4d.js.map": "/Portfolio/static/js/main.8e28fe4d.js.map"
+    "main.c2252c37.css.map": "/Portfolio/static/css/main.c2252c37.css.map",
+    "main.2a45f409.js.map": "/Portfolio/static/js/main.2a45f409.js.map"
   },
   "entrypoints": [
-    "static/css/main.45a03f58.css",
-    "static/js/main.8e28fe4d.js"
+    "static/css/main.c2252c37.css",
+    "static/js/main.2a45f409.js"
   ]
 }
