@@ -36,7 +36,6 @@ const Main = () => {
             <section id='connect' className={`${appSection} align-items-start half-view`}>
                 <Connect />
             </section>
-
         </div>
     )
 }

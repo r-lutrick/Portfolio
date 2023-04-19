@@ -3,13 +3,14 @@
 }
 .half-view {
     height: auto;
+    margin-top: 25vh;
 }
 .name {
     font-size: 2em;
 }
 
 .back-drop {
-    background-image: url('../../assets/images/bwBackdrop.jpg');
+    background-image: url('../../assets/images/lightWallpaper.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

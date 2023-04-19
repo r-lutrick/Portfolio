@@ -9,7 +9,7 @@ const Navbar = () => {
         section.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
     return (
-        <div className="d-flex col align-items-center justify-content-between px-5 nav-bar bg-white bg-opacity-50 blur fade-in-2">
+        <div className="d-flex col align-items-center justify-content-between px-5 nav-bar bg-white bg-opacity-75 blur fade-in-2">
             <img src={logo} alt="logo" style={{ height: "50px" }} className="App-logo" />
             <div className='col-5'>
                 <div className="d-flex col">
