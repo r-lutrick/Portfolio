@@ -13,7 +13,10 @@ const Stacks = () => {
     {
       image: pythonRecipies,
       title: 'Cook Book',
-      text: 'User application for tracking favorite recipes!'
+      description: 'User application for tracking favorite recipes!',
+      backEnd: 'Python (Flask), MySQL',
+      frontEnd: 'HTML5, CSS3, JavaScript (Axios)',
+      devTools: 'MVC, Agile, Wireframe (balsamiq), '
     }
   ]
   const javaScriptCarousel = [
