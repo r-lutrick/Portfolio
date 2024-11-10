@@ -13,10 +13,10 @@ const Stacks = () => {
     {
       image: pythonRecipies,
       title: 'Cook Book',
-      text: 'Full CRUD application for keeping everyone\'s favorite recipes!'
+      text: 'User application for tracking favorite recipes!'
     }
   ]
-  const mernCarousel = [
+  const javaScriptCarousel = [
     {
       image: '',
       title:'',
@@ -124,7 +124,7 @@ const Stacks = () => {
             </div>
             <div className="container col-9">
               <h4>Projects</h4>
-              <CarouselFunction carouselList={mernCarousel} />
+              <CarouselFunction carouselList={javaScriptCarousel} />
             </div>
           </div>
         </Tab>
